@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragonfall Airstrike Beacon | Tactical Mod</title>
+    <style>
+        :root {
+            --primary: #ff4757;
+            --secondary: #ffa502;
+            --bg: #0a0a0c;
+            --card-bg: #16161a;
+            --text: #e1e1e1;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Ambient background glow */
+        .glow {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255, 71, 87, 0.15) 0%, rgba(0,0,0,0) 70%);
+            z-index: -1;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .container {
+            background: var(--card-bg);
+            border: 1px solid #2d2d2d;
+            border-radius: 24px;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            text-align: left;
+            background: rgba(255,255,255,0.03);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+        }
+
+        .feature-item span {
+            margin-right: 12px;
+        }
+
+        /* The "Amazing" Download Button */
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--primary), #e63946);
+            color: white;
+            text-decoration: none;
+            padding: 18px 45px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(255, 71, 87, 0.3);
+            border: none;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(255, 71, 87, 0.5);
+            background: linear-gradient(135deg, #ff6b81, var(--primary));
+        }
+
+        .download-btn:active {
+            transform: translateY(1px);
+        }
+
+        .file-info {
+            margin-top: 15px;
+            font-size: 0.8rem;
+            color: #555;
+        }
+
+        /* Shine animation */
+        .download-btn::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: rgba(255,255,255,0.1);
+            transform: rotate(45deg);
+            transition: 0.5s;
+        }
+
+        .download-btn:hover::after {
+            left: 120%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glow"></div>
+
+    <div class="container">
+        <h1>Dragonfall</h1>
+        <p class="subtitle">Tactical Airstrike Beacon v6.0</p>
+
+        <div class="features">
+            <div class="feature-item"><span>🚀</span> 200-Block Targeting Range</div>
+            <div class="feature-item"><span>💥</span> 8-Stage Sequential Explosions</div>
+            <div class="feature-item"><span>🔥</span> Instant Incendiary Deployment</div>
+            <div class="feature-item"><span>⚖️</span> Balanced 5s Cooldown / 50 Uses</div>
+        </div>
+
+        <a href="https://github.com/meteoritecontentman-lab/Minecraft-Airstrike-Beacon/raw/main/Airstrike%20Beacon%20v6%20(1).jar" class="download-btn" id="dl-trigger">
+            DOWNLOAD .JAR
+        </a>
+
+        <p class="file-info">Airstrike Beacon v6 (1).jar • Minecraft Fabric/Forge</p>
+    </div>
+
+    <script>
+        const btn = document.getElementById('dl-trigger');
+        
+        btn.addEventListener('click', (e) => {
+            console.log("Initialization download sequence...");
+            // You can add a "Thank you" message or a temporary loading state here
+            btn.innerHTML = "PREPARING STRIKE...";
+            setTimeout(() => {
+                btn.innerHTML = "DOWNLOADED";
+            }, 3000);
+        });
+    </script>
+
+</body>
+</html>
