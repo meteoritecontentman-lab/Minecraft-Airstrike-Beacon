@@ -18,15 +18,6 @@
       </ul>
     </div>
 
-    <div style="flex: 1; min-width: 280px; background: #252525; padding: 15px; border-radius: 8px;">
-      <h3 style="color: #ffa502; margin-top: 0;">⚖️ Specs & Balance</h3>
-      <p>Power comes with limits. Manage your ordnance carefully to ensure maximum efficiency in the field:</p>
-      <ul style="list-style: none; padding-left: 0;">
-        <li>🔋 <b>Uses:</b> 50 strikes per beacon</li>
-        <li>⏱️ <b>Cooldown:</b> 5 seconds between uses</li>
-      </ul>
-    </div>
-  </div>
 
   <div style="margin-top: 30px; border-left: 4px solid #2f3542; padding-left: 15px; background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 0 8px 8px 0;">
     <h3 style="color: #7bed9f; margin-top: 0;">🛠️ Version Changes (Lite/Alternative)</h3>
