@@ -1,4 +1,4 @@
-<div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #e1e1e1; background-color: #121212; padding: 25px; border-radius: 15px; border: 1px solid #2d2d2d; max-width: 900px; margin: auto;">
+<div style="font-family: sans-serif; line-height: 1.6; color: #e1e1e1; background-color: #121212; padding: 25px; border-radius: 15px; border: 1px solid #2d2d2d; max-width: 900px; margin: auto;">
   
   <div style="text-align: center; margin-bottom: 25px;">
     <h1 style="color: #ff4757; font-size: 2.2em; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 1px;">🔥 Dragonfall Airstrike Beacon</h1>
@@ -10,7 +10,7 @@
   <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: stretch;">
     
     <div style="flex: 1; min-width: 300px; background: #1e1e1e; padding: 20px; border-radius: 10px; border: 1px solid #333;">
-      <h3 style="color: #ff6b81; margin-top: 0; display: flex; align-items: center;">🚀 The Strike</h3>
+      <h3 style="color: #ff6b81; margin-top: 0;">🚀 The Strike</h3>
       <p>Rain down destruction from a distance. Right-click while aiming at any location up to <b>200 blocks away</b> to trigger a devastating barrage of <b>eight massive explosions</b> that:</p>
       <ul style="padding-left: 20px;">
         <li><span style="color: #ff9f43;">🔥</span> <b>Ignite</b> intense, spreading fires.</li>
@@ -20,7 +20,7 @@
     </div>
 
     <div style="flex: 1; min-width: 300px; background: #1e1e1e; padding: 20px; border-radius: 10px; border: 1px solid #333;">
-      <h3 style="color: #ffa502; margin-top: 0; display: flex; align-items: center;">⚖️ Specs & Balance</h3>
+      <h3 style="color: #ffa502; margin-top: 0;">⚖️ Specs & Balance</h3>
       <p>Power comes with limits. Manage your ordnance carefully to ensure maximum efficiency in the field:</p>
       <div style="margin-top: 15px;">
         <div style="background: #2a2a2a; padding: 10px; border-radius: 6px; margin-bottom: 10px; display: flex; align-items: center;">
