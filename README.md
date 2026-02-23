@@ -17,6 +17,10 @@
         <li>Produce dramatic smoke and flame particles</li>
       </ul>
     </div>
+    
+[![GitHub release](https://img.shields.io/github/release/KurtBestor/Hitomi-Downloader.svg?logo=github)](https://github.com/KurtBestor/Hitomi-Downloader/releases/latest)
+[![GitHub downloads](https://img.shields.io/github/downloads/KurtBestor/Hitomi-Downloader/latest/total.svg?logo=github)](https://github.com/KurtBestor/Hitomi-Downloader/releases/latest)
+[![GitHub downloads](https://img.shields.io/github/downloads/KurtBestor/Hitomi-Downloader/total.svg?logo=github)](https://github.com/KurtBestor/Hitomi-Downloader/releases)
 
 
   <div style="margin-top: 30px; border-left: 4px solid #2f3542; padding-left: 15px; background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 0 8px 8px 0;">
