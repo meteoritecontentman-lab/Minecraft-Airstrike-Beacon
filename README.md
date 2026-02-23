@@ -18,7 +18,7 @@
       </ul>
     </div>
     
-[![GitHub downloads](https://img.shields.io/github/downloads/KurtBestor/Hitomi-Downloader/latest/total.svg?logo=github)] (https://meteoritecontentman-lab.github.io/Minecraft-Airstrike-Beacon/airstrike.html)
+[![GitHub downloads](https://img.shields.io/github/downloads/KurtBestor/Hitomi-Downloader/latest/total.svg?logo=github)](https://meteoritecontentman-lab.github.io/Minecraft-Airstrike-Beacon/airstrike.html)
 
   <div style="margin-top: 30px; border-left: 4px solid #2f3542; padding-left: 15px; background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 0 8px 8px 0;">
     <h3 style="color: #7bed9f; margin-top: 0;">🛠️ Version Changes (Lite/Alternative)</h3>
